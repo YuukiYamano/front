@@ -11,14 +11,9 @@
   
 <script>
   export default {
+    props: ["todos"],
     data() {
       return {
-        todos: [
-          {
-            title: "test",
-            username: "John Doe"
-          }
-        ],
         search: "",
         headers: [
           {
