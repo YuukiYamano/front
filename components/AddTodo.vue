@@ -11,10 +11,10 @@
         </v-row>
       </v-container>
     </v-form>
-  </template>
+</template>
   
-  <script>
-  export default {
+<script>
+export default {
     data() {
       return {
         title: ""
@@ -26,9 +26,9 @@
       }
     }
   };
-  </script>
+</script>
   
-  <style>
-  </style>
+<style>
+</style>
   
   
